@@ -17,3 +17,7 @@ console.log(counter());
 console.log(counter());
 console.log(counter());
 console.log(counter());
+
+let array = ["java", "quiz"];
+let str = array.toString();
+console.log(str);
