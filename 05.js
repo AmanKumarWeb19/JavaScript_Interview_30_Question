@@ -11,7 +11,17 @@ let str = "Hello World"
 // console.log(x)
 
 // 2.
-function reverseStr(str){
+// function reverseStr(str){
+// let bag=""
+
+//   for(let i=str.length-1; i>=0; i--){
+//     bag += str[i]
+//   }
+//   console.log(bag)
+// }
+// reverseStr(str)
+
+function reverse(str){
 let bag=""
 
   for(let i=str.length-1; i>=0; i--){
@@ -19,4 +29,4 @@ let bag=""
   }
   console.log(bag)
 }
-reverseStr(str)
+reverse(str)
