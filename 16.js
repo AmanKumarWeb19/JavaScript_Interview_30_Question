@@ -23,8 +23,17 @@
 
 // Or, using an arrow function for a more concise syntax:
 
-let arr = [2, 15, 8, 9, 7, 6, 13];
+// let arr = [2, 15, 8, 9, 7, 6, 13];
 
-const double = arr.map((num) => num * 2);
+// const double = arr.map((num) => num * 2);
 
-console.log(double);
+// console.log(double);
+
+let arr = [2, 55, 8, 9, 7, 6, 13];
+
+function mapArray(arr) {
+  return arr.map((num) => num * 2);
+}
+
+let x = mapArray(arr);
+console.log(x);

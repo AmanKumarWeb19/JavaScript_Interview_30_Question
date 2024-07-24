@@ -37,16 +37,30 @@
 
 /** if only one target is repeat then solve without any method */
 
-function removeOccurnace(arr, target) {
-  let result = [];
-  for(let i=0; i<arr.length; i++){
-    if(arr[i] !== target){
-      result.push(arr[i])
-    }
-  }
-  console.log(result)
-}
+// function removeOccurnace(arr, target) {
+//   let result = [];
+//   for(let i=0; i<arr.length; i++){
+//     if(arr[i] !== target){
+//       result.push(arr[i])
+//     }
+//   }
+//   console.log(result)
+// }
+
+// let arr = [10, 10, 8, 5, 1, 6, 7];
+// let target = 10
+// removeOccurnace(arr,target)
 
 let arr = [10, 10, 8, 5, 1, 6, 7];
-let target = 10
-removeOccurnace(arr,target)
+let target = 10;
+
+function removeOcurr(arr, target) {
+  let result = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== target) {
+      result.push(arr[i]);
+    }
+  }
+  console.log(result);
+}
+removeOcurr(arr, target);
